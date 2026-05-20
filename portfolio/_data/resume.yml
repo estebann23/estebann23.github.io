@@ -1,0 +1,50 @@
+
+# Bio
+bio: >
+  [ Data & AI Developer -- BSc Data Science and Artificial Intelligence graduate]
+
+# Skills
+
+skills:
+  - label: "Programming Languages"
+    items:
+      - "Python"
+      - "Java"
+      - "SQL"
+      - "R"
+
+  - label: "Tools & Platforms"
+    items:
+      - "Neo4j"
+      - "Jupyter"
+      - "Git"
+      - "GitHub Actions"
+  
+  - label: "Languages" 
+    items:
+      - "English (C1)"
+      - "French (B1)"
+      - "Dutch (A2)"
+      - "Spanish (Native)"
+
+# Education
+education:
+  - degree: "[ BSc, Data Science and Artificial Intelligence ]"
+    institution: "[ Maastricht University (Maastricht, Netherlands) ]"
+    years: "2023–2026"
+    detail: "[ Relevant coursework: Machine Learning, Data Analysis, Recommender Systems, Natural Language Processing, Image and Video Processing, Software Engineering, Databases ]"
+
+
+# Experience
+experience:
+  - role: "[ Working Student, Company Project ]"
+    organisation: "[ InnovatieLab Politie (via Maastricht University) ]"
+    period: "2025-2026"
+    detail: "[ AI routing algorithms. Geospatial data, Python, Flask]"
+
+
+# Certifications
+certifications:
+  - name: "[ Neo4j Certified Professional ]"
+    issuer: "[ Neo4j Graph Academy ]"
+    year: "2026"

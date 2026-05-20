@@ -1,0 +1,62 @@
+#  Jekyll Configuration
+
+title: "Esteban Naranjo's site"
+description: "BSc Data Science and Artificial Intelligence"
+email: "enaranjo.eu@gmail.com"
+
+url: "https://estebann23.github.io"
+baseurl: ""
+
+theme: null
+plugins: []
+
+social:
+  github: "https://github.com/estebann23"
+  linkedin: "https://linkedin.com/in/naranjo-esteban"
+  kaggle: ""
+  twitter: ""
+
+# Projects
+
+projects:
+  - title: "Project Title One"
+    description: ""
+    tags: []
+    url: ""
+    repo: ""
+    year: 
+
+  - title: "Project Title Two"
+    description: ""
+    tags: []
+    url: 
+    repo:
+    year: 
+
+  - title: "Project Title Three"
+    description: ""
+    tags: []
+    url: "
+    repo: ""
+    year: 
+
+  - title: "Project Title Four"
+    description: ""
+    tags: []
+    url:
+    repo:
+    year:
+
+# CV
+cv_download_url: "assets/cv.pdf"
+
+# Markdown & Highlighting
+markdown: kramdown
+highlighter: rouge
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor

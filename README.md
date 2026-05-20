@@ -1,1 +1,0 @@
-# Esteban Naranjo's Site
