@@ -718,7 +718,7 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
     padding: calc(var(--nav-h) + 24px) 20px 48px;
   }
   .hero__name {
-    font-size: clamp(2.5rem, 16vw, 4rem);
+    font-size: clamp(1.9rem, 12vw, 3rem);
     white-space: normal;
   }
   .hero__scroll-hint { display: none; }
