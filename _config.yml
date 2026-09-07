@@ -41,7 +41,7 @@ projects:
     year:
 
   - title: "Pizza Delivery App"
-    description: "Developed a full-stack Java application for pizza delivery and stock management. Implemented relational databases using MySQL for data storage and connection with the core application with MySQL Connector."
+    description: "Developed a desktop client, Java application for pizza delivery and stock management. Implemented relational databases using MySQL for data storage and connection with the core application with MySQL Connector."
     tags: [Java, Relational Databases, SQL]
     url: "https://github.com/estebann23/emiliapizza"
     repo:
