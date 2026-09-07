@@ -218,8 +218,8 @@ layout: null
       </div>
 
       <p class="projects__intro">
-        A selection of Data & AI projects, each deployed as its own GitHub Pages site.
-        Click any card to explore the full writeup and interactive demos.
+        A selection of Data & AI projects.
+        Explore any card to learn more about the project description and technologies used.
       </p>
 
       <div class="filter-bar" id="filterBar">
@@ -247,7 +247,7 @@ layout: null
             <div class="project-card__footer">
               {% if project.url != "" and project.url != nil %}
               <a href="{{ project.url }}" class="project-card__demo-link" target="_blank" rel="noopener">
-                Live Demo ↗
+                Repository ↗
               </a>
               {% else %}
               <span class="project-card__demo-link project-card__demo-link--disabled">No demo yet</span>

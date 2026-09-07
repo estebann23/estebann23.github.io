@@ -3,15 +3,15 @@
    ============================================================ */
 :root {
   /* Palette */
-  --bg:        #0d0f14;
-  --bg-2:      #13161d;
-  --bg-card:   #191d27;
+  --bg:        #e7e7d5;
+  --bg-2:      #efefe5;
+  --bg-card:   #efefe5;
   --border:    rgba(255,255,255,0.08);
   --border-hl: rgba(255,200,80,0.35);
 
-  --text:      #e8e6df;
-  --text-muted:#8a8a8e;
-  --text-faint:#4a4a50;
+  --text:      #000000;
+  --text-muted:#6f6f74;
+  --text-faint:#b1510d;
 
   --accent:    #f5c842;      /* electric amber */
   --accent-dim:rgba(245,200,66,0.12);
@@ -260,20 +260,21 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
 
 .hero__name {
   font-family: var(--font-display);
-  font-size: clamp(3.5rem, 9vw, 7.5rem);
+  font-size: clamp(1rem, 5vw, 5rem);
   font-weight: 300;
   line-height: 1;
   letter-spacing: -0.03em;
+  white-space: nowrap;
   margin-bottom: 24px;
 }
 .hero__firstname {
-  display: block;
+  display: inline;
   color: var(--text);
   opacity: 0;
   animation: fadeUp 0.7s 0.2s forwards;
 }
 .hero__lastname {
-  display: block;
+  display: inline;
   color: transparent;
   -webkit-text-stroke: 1px rgba(232,230,223,0.35);
   opacity: 0;
@@ -712,7 +713,6 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
 @media (max-width: 640px) {
   .section { padding: 72px 20px; }
   .hero { padding-left: 20px; padding-right: 20px; }
-  .hero__name { font-size: 3rem; }
   .nav__inner { padding: 0 20px; }
   .footer__inner { flex-direction: column; text-align: center; }
 }
