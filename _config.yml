@@ -22,7 +22,7 @@ projects:
   - title: "Bachelor Thesis - KG-Embeddings for Explainable Recommendations"
     description: "Building a Knowledge Graph and implementing KG-embeddings using Python and Neo4j to generate explainable, transparent and personalized restaurant recommendations using extracted dietary and allergy constraints."
     tags: [Knowledge Graphs, Recommender Systems, Explainable AI (XAI)]
-    url: "https://github.com/estebann23/kg-embeddings-recommender"
+    url:
     repo: 
     year:
 
