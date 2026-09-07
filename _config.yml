@@ -1,6 +1,6 @@
 #  Jekyll Configuration
 
-title: "Esteban Naranjo's site"
+title: "Esteban Naranjo -- Data & AI Developer"
 description: "BSc Data Science and Artificial Intelligence"
 email: "enaranjo.eu@gmail.com"
 
@@ -19,33 +19,33 @@ social:
 # Projects
 
 projects:
-  - title: "Project Title One"
-    description: ""
-    tags: []
+  - title: "Bachelor Thesis - KG-Embeddings for Explainable Recommendations"
+    description: "Building a Knowledge Graph and implementing KG-embeddings using Python and Neo4j to generate explainable, transparent and personalized restaurant recommendations using extracted dietary and allergy constraints."
+    tags: [Knowledge Graphs, Recommender Systems, Explainable AI (XAI)]
     url: ""
-    repo: ""
-    year: 
+    repo: "https://github.com/estebann23/kg-embeddings-recommender"
+    year: 2026-2027
 
-  - title: "Project Title Two"
-    description: ""
-    tags: []
+  - title: "Handwritten Digits Recognition"
+    description: "Image recognition and processing of +17000 labelled handwritten Hindi numeral digits (0-9). Trained models using techniques Random Forests, Convolutional Neural Networks (CNN) for digits prediction with 99.86% accuracy on the validation set."
+    tags: [Image Processing, OpenCV, Tensorflow]
     url: 
-    repo:
-    year: 
+    repo: https://github.com/estebann23/imagevideoprocessing-g23
+    year: 2026
 
-  - title: "Project Title Three"
-    description: ""
-    tags: []
+  - title: "Checkers AI Game Engine"
+    description: "Developed a game engine for a checkers game using Java and JavaFX. Implemented multi-agent playing environment using adversarial search techniques (Alpha-Beta search, Minimax)."
+    tags: [Game-Playing AI, MCTS, Multi-Agent Environments]
     url: "
-    repo: ""
-    year: 
+    repo: "https://github.com/estebann23/frisianGame"
+    year: 2024-2025
 
-  - title: "Project Title Four"
-    description: ""
-    tags: []
+  - title: "Pizza Delivery App"
+    description: "Developed a full-stack Java application for pizza delivery and stock management. Implemented relational databases using MySQL for data storage and connection with the core application with MySQL Connector."
+    tags: [Java, Relational Databases, SQL]
     url:
     repo:
-    year:
+    year: 2025
 
 # CV
 cv_download_url: "assets/cv.pdf"

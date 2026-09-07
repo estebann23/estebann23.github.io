@@ -31,20 +31,20 @@ skills:
 education:
   - degree: "[ BSc, Data Science and Artificial Intelligence ]"
     institution: "[ Maastricht University (Maastricht, Netherlands) ]"
-    years: "2023–2026"
+    years: "2023–2027"
     detail: "[ Relevant coursework: Machine Learning, Data Analysis, Recommender Systems, Natural Language Processing, Image and Video Processing, Software Engineering, Databases ]"
 
 
 # Experience
 experience:
-  - role: "[ Working Student, Company Project ]"
+  - role: "[ Working Student, AI & Data ]"
     organisation: "[ InnovatieLab Politie (via Maastricht University) ]"
     period: "2025-2026"
-    detail: "[ AI routing algorithms. Geospatial data, Python, Flask]"
+    detail: "[ AI Routing Algorithms. Geospatial data, Python, Flask]"
 
 
 # Certifications
 certifications:
   - name: "[ Neo4j Certified Professional ]"
     issuer: "[ Neo4j Graph Academy ]"
-    year: "2026"
+    year: "August 2026"
