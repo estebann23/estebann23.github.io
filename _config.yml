@@ -24,28 +24,28 @@ projects:
     tags: [Knowledge Graphs, Recommender Systems, Explainable AI (XAI)]
     url: ""
     repo: "https://github.com/estebann23/kg-embeddings-recommender"
-    year: 2026-2027
+    year:
 
   - title: "Handwritten Digits Recognition"
     description: "Image recognition and processing of +17000 labelled handwritten Hindi numeral digits (0-9). Trained models using techniques Random Forests, Convolutional Neural Networks (CNN) for digits prediction with 99.86% accuracy on the validation set."
     tags: [Image Processing, OpenCV, Tensorflow]
-    url: 
-    repo: https://github.com/estebann23/imagevideoprocessing-g23
-    year: 2026
+    url: ""
+    repo: "https://github.com/estebann23/imagevideoprocessing-g23"
+    year:
 
   - title: "Checkers AI Game Engine"
     description: "Developed a game engine for a checkers game using Java and JavaFX. Implemented multi-agent playing environment using adversarial search techniques (Alpha-Beta search, Minimax)."
     tags: [Game-Playing AI, MCTS, Multi-Agent Environments]
-    url: "
+    url: ""
     repo: "https://github.com/estebann23/frisianGame"
-    year: 2024-2025
+    year:
 
   - title: "Pizza Delivery App"
     description: "Developed a full-stack Java application for pizza delivery and stock management. Implemented relational databases using MySQL for data storage and connection with the core application with MySQL Connector."
     tags: [Java, Relational Databases, SQL]
     url:
     repo:
-    year: 2025
+    year:
 
 # CV
 cv_download_url: "assets/cv.pdf"
