@@ -712,7 +712,16 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
    ============================================================ */
 @media (max-width: 640px) {
   .section { padding: 72px 20px; }
-  .hero { padding-left: 20px; padding-right: 20px; }
+  .hero {
+    min-height: auto;
+    align-items: flex-start;
+    padding: calc(var(--nav-h) + 24px) 20px 48px;
+  }
+  .hero__name {
+    font-size: clamp(2.5rem, 16vw, 4rem);
+    white-space: normal;
+  }
+  .hero__scroll-hint { display: none; }
   .nav__inner { padding: 0 20px; }
   .footer__inner { flex-direction: column; text-align: center; }
 }
