@@ -3,14 +3,14 @@
    ============================================================ */
 :root {
   /* Palette */
-  --bg:        #e7e7d5;
-  --bg-2:      #efefe5;
-  --bg-card:   #efefe5;
-  --border:    rgba(255,255,255,0.08);
-  --border-hl: rgba(255,200,80,0.35);
+  --bg:        #f4f1ea;
+  --bg-2:      #ece7db;
+  --bg-card:   #ffffff;
+  --border:    rgba(0,0,0,0.08);
+  --border-hl: rgba(214,158,26,0.4);
 
-  --text:      #000000;
-  --text-muted:#6f6f74;
+  --text:      #1c1c1f;
+  --text-muted:#5c5c63;
   --text-faint:#b1510d;
 
   --accent:    #f5c842;      /* electric amber */
@@ -67,7 +67,7 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   top: 0; left: 0; right: 0;
   z-index: 100;
   height: var(--nav-h);
-  background: rgba(13, 15, 20, 0.85);
+  background: rgba(247, 244, 237, 0.85);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--border);
@@ -107,7 +107,7 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   border-radius: var(--radius);
   transition: color 0.2s, background 0.2s;
 }
-.nav__link:hover { color: var(--text); background: rgba(255,255,255,0.05); }
+.nav__link:hover { color: var(--text); background: rgba(0,0,0,0.04); }
 .nav__link--cta {
   background: var(--accent-dim);
   border: 1px solid var(--border-hl);
@@ -199,7 +199,7 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
 .tag {
   display: inline-block;
   padding: 3px 10px;
-  background: rgba(255,255,255,0.05);
+  background: rgba(0,0,0,0.04);
   border: 1px solid var(--border);
   border-radius: 3px;
   font-size: 0.72rem;
@@ -225,8 +225,8 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   position: absolute;
   inset: 0;
   background-image:
-    linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px);
+    linear-gradient(rgba(0,0,0,0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,0,0,0.04) 1px, transparent 1px);
   background-size: 60px 60px;
   mask-image: radial-gradient(ellipse 80% 60% at 50% 50%, black 0%, transparent 100%);
 }
@@ -260,7 +260,7 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
 
 .hero__name {
   font-family: var(--font-display);
-  font-size: clamp(1rem, 5vw, 5rem);
+  font-size: clamp(0.65rem, 3.2vw, 2.5rem);
   font-weight: 300;
   line-height: 1;
   letter-spacing: -0.03em;
@@ -276,7 +276,7 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
 .hero__lastname {
   display: inline;
   color: transparent;
-  -webkit-text-stroke: 1px rgba(232,230,223,0.35);
+  -webkit-text-stroke: 1px rgba(28,28,31,0.35);
   opacity: 0;
   animation: fadeUp 0.7s 0.32s forwards;
 }
@@ -581,7 +581,7 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
 .project-card:hover .project-card__inner {
   border-color: var(--border-hl);
   transform: translateY(-3px);
-  box-shadow: 0 12px 40px rgba(0,0,0,0.4), 0 0 0 1px rgba(245,200,66,0.1);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.12), 0 0 0 1px rgba(245,200,66,0.15);
 }
 .project-card:hover .project-card__inner::before { opacity: 1; }
 
