@@ -15,11 +15,14 @@ skills:
 
   - label: "Tools & Platforms"
     items:
+      - "Jupyter Notebooks"
       - "Neo4j"
-      - "Jupyter"
-      - "Git"
-      - "GitHub Actions"
-  
+      - "MySQL / PostgreSQL"
+      - "REST APIs"
+      - "Git / GitHub Actions"
+      - "Vercel"
+      - "Docker"
+
   - label: "Languages" 
     items:
       - "English (C1)"
